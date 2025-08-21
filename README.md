@@ -1,2 +1,1 @@
- Student: Arina
- Mentor: Viacheslav 
+ 
