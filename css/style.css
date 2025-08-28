@@ -7,7 +7,31 @@ body{
     color: #eff5fad1;
 
 }
-a{
-    color:#eff5fad1;
+h1, h2, h3{
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: Spacing/Spacing64;
+
+}
+p{
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    color: #EFF5FAD1;
+}
+.a{
+    color:#D0D7FB2B;
     text-decoration: none;
+    border: 2px;
+    bottom: 10px;
+}
+.button{
+    
+    font-weight: 600;
+    text-align: left;
+
 }
