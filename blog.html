@@ -4,64 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BINABOX Home Page</title>
-<head>
-    <style>
-        
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        <a href="/">
-            <img src="./images/logo.png" alt="Logo">
-        </a>
-        <ul>
-            <li>
-                <a href="/home">Home</a>
-            </li>
-            <li>
-                <a href="/blog">Blog</a>
-            </li>
-            <li>
-                <a href="/catalog">Catalog</a>
-            </li>
-            <li>
-                <a href="/about">About Us</a>
-            </li>
-        </ul>
-        <input type="search">
-        <a href="#">Discord</a>
-        <button>Login</button>
+<body class="body">
+    <header class="header">
+        <nav class="header__nav">
+            <a href="/" class="header__logo">
+                <img src="./images/logo.png" alt="Logo" class="header__logo-img">
+            </a>
+            <ul class="header__menu">
+                <li class="header__menu-item"><a href="/home" class="header__menu-link">Home</a></li>
+                <li class="header__menu-item"><a href="/blog" class="header__menu-link">Blog</a></li>
+                <li class="header__menu-item"><a href="/catalog" class="header__menu-link">Catalog</a></li>
+                <li class="header__menu-item"><a href="/about" class="header__menu-link">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="header__actions">
+            <input type="search" class="header__search">
+            <a href="#" class="header__discord-link">Discord</a>
+            <button class="header__login-button">Login</button>
+        </div>
     </header>
-    <main>
-        <section>
-            <h1>Our blog</h1>
-            <div>
+    <main class="main">
+        <section class="blog-header"">
+            <h1 class="blog-header__title">Our blog</h1>
+            <div class="blog-header__breadcrumb">
                 <nav aria-label="breadcrumb">
-                    <ol>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/blog">Our blog</a></li>
-                        <li><a href="page">The Basilisks NFT</a></li>
+                    <ol class="breadcrumb__list">
+                        <li class="breadcrumb__item"><a href="/" class="breadcrumb__link">Home</a></li>
+                        <li class="breadcrumb__item"><a href="/blog" class="breadcrumb__link">Our blog</a></li>
+                        <li class="breadcrumb__item"><a href="page" class="breadcrumb__link">The Basilisks NFT</a></li>
                     </ol>
                 </nav>
             </div>
         </section>
-                <aside>
-            <div>      
-                <h2>Categories</h2>
-                <hr>
-                <ul>
-                    <li><a href="/blog">Our Blog (12)</a></li>
-                    <li><a href="/metaverse">Metaverse (24)</a></li>
-                    <li><a href="/gaming">Gaming(24)</a></li>
-                    <li><a href="/art">Art (24)</a></li>
-                    <li><a href="/robot">Robot (24))</a></li>
-                    <li><a href="/lauchpad">Lauchpad (24)</a></li>
-                    <li><a href="/crypto">Crypto (430)</a></li>
+                <aside class="sidebar">
+            <div class="sidebar__categories">      
+                <h2 class="sidebar__title">Categories</h2>
+                <hr class="sidebar__line">
+                <ul class="sidebar__list">
+                    <li class="sidebar__item"><a href="/blog" class="sidebar__link">Our Blog (12)</a></li>
+                    <li class="sidebar__item"><a href="/metaverse" class="sidebar__link">Metaverse (24)</a></li>
+                    <li class="sidebar__item"><a href="/gaming" class="sidebar__link">Gaming(24)</a></li>
+                    <li class="sidebar__item"><a href="/art" class="sidebar__link">Art (24)</a></li>
+                    <li class="sidebar__item"><a href="/robot" class="sidebar__link">Robot (24))</a></li>
+                    <li class="sidebar__item"><a href="/lauchpad" class="sidebar__link">Lauchpad (24)</a></li>
+                    <li class="sidebar__item"><a href="/crypto" class="sidebar__link">Crypto (430)</a></li>
                 </ul>
             </div>
-            <div>
-                    <h2>Teg</h2>
-                    <hr>
+            <div class="sidebar__tags">
+                    <h2 class="sidebar__title">Tag</h2>
+                    <hr class="sidebar__line">
                     <button class="#">NFT</button>
                     <button class="#">ICO</button>
                     <button class="#">Robot</button>
@@ -70,92 +66,90 @@
                     <button class="#">Metaverse</button>
             </div>
                 </aside>
-        <section>
-                <article>
-                    <img src="dino.png" alt="Basilisks NFT">
-                    <h2>The Basilisks NFT</h2>
+        <section class="article-section">
+                <article class="article">
+                    <img src="dino.png" alt="Basilisks NFT" class="article__img">
+                    <h2 class="article__title">The Basilisks NFT</h2>
                     <button class="#">Gaming</button>
-                    <span>Tony Nguyen</span> |
-                    <span>20 Jun 2022</span>
-                    <p>Basilisks aren’t just creatures — they’re digital apex predators.Forged on the Ethereum chain and raised in a metaverse colosseum, they live to dominate, duel, and devour.Every one of them is an NFT with unique DNA, traits, and bloodlust.</p>
-                    <ul>
-                        <li><p>In this game, your Basilisk is your warrior. You breed it. You name it. You train it. And when you’re ready, you send it into the arena — not to play, but to survive.</p></li>
-                        <li><p>Each NFT Basilisk has a set of traits, mutations, and skills, minted immutably on-chain. The arena? A fully 3D metaverse battleground with wagers, livestreams, and faction wars. Players don’t just watch — they stake tokens, call hits, and climb leaderboards.</p></li>
-                        <li><p>The game’s AI learns from every move. If your Basilisk gets too strong — it becomes a target. If it dies? It's burned forever. If it wins? You earn crypto, glory, and power.</p></li>
+                    <span class="article__author">Tony Nguyen</span> |
+                    <span class="article__date">20 Jun 2022</span>
+                    <p class="article__text">Basilisks aren’t just creatures — they’re digital apex predators.Forged on the Ethereum chain and raised in a metaverse colosseum, they live to dominate, duel, and devour.Every one of them is an NFT with unique DNA, traits, and bloodlust.</p>
+                    <ul class="article__list">
+                        <li><p class="article__list-item">In this game, your Basilisk is your warrior. You breed it. You name it. You train it. And when you’re ready, you send it into the arena — not to play, but to survive.</p></li>
+                        <li><p class="article__list-item">Each NFT Basilisk has a set of traits, mutations, and skills, minted immutably on-chain. The arena? A fully 3D metaverse battleground with wagers, livestreams, and faction wars. Players don’t just watch — they stake tokens, call hits, and climb leaderboards.</p></li>
+                        <li><p class="article__list-item">The game’s AI learns from every move. If your Basilisk gets too strong — it becomes a target. If it dies? It's burned forever. If it wins? You earn crypto, glory, and power.</p></li>
                     </ul>
                 </article>
-                <ul>
-                    <li>Unique DNA structure</li>
-                    <li>PvP-enabled arenas</li>
-                    <li>Permanent death mode</li>
-                    <li>Metaverse integration</li>
+                <ul class="features">
+                    <li class="features__item">Unique DNA structure</li>
+                    <li class="features__item">PvP-enabled arenas</li>
+                    <li class="features__item">Permanent death mode</li>
+                    <li class="features__item">Metaverse integration</li>
                 </ul>
-                <blockquote>“The first huge metaverse arena to arrange live sports, hang out and even make bets and wagers”</blockquote>
-                <span><small>8.5/10</small></span>
-                <span><small>Markout Corporation</small></span>
+                <blockquote class="quote">“The first huge metaverse arena to arrange live sports, hang out and even make bets and wagers”</blockquote>
+                <span class="rating"><small>8.5/10</small></span>
+                <span class="company"><small>Markout Corporation</small></span>
         </section>
         <section>
-                <article>
-                    <img src="drak.png" alt="Gen-3 Basilisk">
-                    <img src="drak2.png" alt="Gen-3 Basilisk">
-                    <h2>NFTs are digital assets that represent real-world objects</h2>
-                    <p>Setting up your avatar and personalizing your nickname on Binance is quick and easy. Users can go to binance.com under Dashboard > Settings > My Profile > Avatar and Nickname. For those of you who own NFT assets, you can select the NFT you want to use from your collection as your avatar to personalize your profile. For users who do not own any NFT avatars, check out the NFT avatar collections page to get started.f</p>
-                    <p>Alternatively, if you’re on nft.binance.com, go to User Center > Settings > Basic > Set Avatar and Nickname, and you’ll be redirected to the main site. Binance NFT Creators have the option of setting their Avatars on nft.binance.com. Once you set your new unique nickname, it will be standardized and used across the Binance ecosystem.</p>
+                <article class="article-section">
+                    <img src="drak.png" alt="Gen-3 Basilisk" class="article">
+                    <img src="drak2.png" alt="Gen-3 Basilisk" class="article">
+                    <h2 class="article__title">NFTs are digital assets that represent real-world objects</h2>
+                    <p class="article__text">Setting up your avatar and personalizing your nickname on Binance is quick and easy. Users can go to binance.com under Dashboard > Settings > My Profile > Avatar and Nickname. For those of you who own NFT assets, you can select the NFT you want to use from your collection as your avatar to personalize your profile. For users who do not own any NFT avatars, check out the NFT avatar collections page to get started.f</p>
+                    <p class="article__text">Alternatively, if you’re on nft.binance.com, go to User Center > Settings > Basic > Set Avatar and Nickname, and you’ll be redirected to the main site. Binance NFT Creators have the option of setting their Avatars on nft.binance.com. Once you set your new unique nickname, it will be standardized and used across the Binance ecosystem.</p>
                                
                 </article>
         </section>
-        <section>
-            <h2>NFT Avatar Generators</h2>
-            <p>Looking to join the pack? <br>Use the NFT Avatar Generator to craft your own beast — or grab a rare egg on the marketplace.<br>You name it. You own it. You unleash it.</p>
+        <section class="generator">
+            <h2 class="generator__title">NFT Avatar Generators</h2>
+            <p class="generator__text">Looking to join the pack? <br>Use the NFT Avatar Generator to craft your own beast — or grab a rare egg on the marketplace.<br>You name it. You own it. You unleash it.</p>
         </section>
-        <section>
-            <div>
-                <h4>Tags:</h4>
+        <section class="tags-share">
+            <div class="tags">
+                <h4 class="tags__title">Tags:</h4>
                 <button class="#">NFT</button>
                 <button class="#">Metaverse</button>
                 <button class="#">Crypto</button>
             </div>
-            <div>
-                <h4>Share:</h4>
-                <a href="https://twitter.com">Twitter</a>
-                <a href="https://facebook.com">Facebook</a>
-                <a href="https://instagram.com">Instagram</a>
+            <div class="share">
+                <h4 class="share__title">Share:</h4>
+                <a href="https://twitter.com" class="share__link">Twitter</a>
+                <a href="https://facebook.com" class="share__link">Facebook</a>
+                <a href="https://instagram.com" class="share__link">Instagram</a>
             </div>
         </section>
         </main>
-    <footer>
-    <div>
-         <div>
-            <h2>BINABOX</h2>
+    <footer class="footer">
+    <div class="footer__top">
+         <div class="footer__brand">
+            <h2 class="footer__title">BINABOX</h2>
             <p>We are the best way to check the rarity of NFT collection.</p>
          </div>
-         <div>
+         <div class="footer__nav">
             <nav>
-                <ul>
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/catalog">Catalog</a></li>
-                    <li><a href="/contact">Contact Us</a></li>
-                    <li><a href="/terms">Terms of Service</a></li>
-                    <li><a href="/privacy">Privacy Policy</a></li>
-                    <li><a href="/whitepaper">Whitepaper</a></li>
-                    <li><a href="/help">Help Center</a></li>
+                <ul class="footer__menu">
+                    <li><a href="/home" class="footer__menu-link">Home</a></li>
+                    <li><a href="/blog" class="footer__menu-link">Blog</a></li>
+                    <li><a href="/catalog" class="footer__menu-link">Catalog</a></li>
+                    <li><a href="/contact" class="footer__menu-link">Contact Us</a></li>
+                    <li><a href="/terms" class="footer__menu-link">Terms of Service</a></li>
+                    <li><a href="/privacy" class="footer__menu-link">Privacy Policy</a></li>
+                    <li><a href="/whitepaper" class="footer__menu-link">Whitepaper</a></li>
+                    <li><a href="/help" class="footer__menu-link">Help Center</a></li>
                 </ul>
             </nav>
     </div>
         </div>
-        <div>
-            <hr>
-            <h4>BINABOX 2025 - ALL rights reserved</h4>
-            <a href="https://twitter.com">Twitter</a>
-            <a href="https://facebook.com">Facebook</a>
-            <a href="https://telegram.com">Telegram</a>
-            <a href="https://youtube.com">YouTube</a>
-            <a href="https://tiktok.com">TikTok</a>
-            <a href="https://discord.com">Discord</a>
+        <div class="footer__bottom">
+            <hr class="footer__line">
+            <h4 class="footer__copy">BINABOX 2025 - ALL rights reserved</h4>
+            <a href="https://twitter.com" class="social-link">Twitter</a>
+            <a href="https://facebook.com" class="social-link">Facebook</a>
+            <a href="https://telegram.com" class="social-link">Telegram</a>
+            <a href="https://youtube.com" class="social-link">YouTube</a>
+            <a href="https://tiktok.com" class="social-link">TikTok</a>
+            <a href="https://discord.com" class="social-link">Discord</a>
         </div>
     </footer>
 </body>
 </html>
-
-        
