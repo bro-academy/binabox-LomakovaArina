@@ -1,5 +1,14 @@
 {
-  "index": {
+  "catalog": {
+    "title": "",
+    "button": "",
+    "list": ""
+    {
+      "img": "url",
+      "name": "Name Product",
+      "price": "1199",
+      "label": "New"
+    }
      
-  }
-}
+  },
+ }
