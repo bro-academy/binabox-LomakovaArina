@@ -12,7 +12,7 @@ h1, h2, h3{
     font-weight: 400;
     letter-spacing: 0.5px;
     text-align: center;
-    margin-bottom: Spacing/Spacing64;
+    margin-bottom: Spacing/Spacing64 24px;
 
 }
 p{
@@ -21,17 +21,81 @@ p{
     font-size: 16px;
     letter-spacing: 0;
     line-height: 24px;
-    color: #EfF5FAD1;
+    color: #EfF5FA 82%;
 }
-.a{
-    color:#D0d7FB2B;
+a{
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: large;
+    font-weight: normal;
+    color:#D0D7FB2B 17% ;
     text-decoration: none;
     border: 2px;
     bottom: 10px;
 }
-.button{
-    
+button{
+    font-size:x-large;
+    font-weight: normal;
+    border: 2px;
+    font-family: "Poppins", Arial, sans-serif;
     font-weight: 600;
     text-align: left;
+
+}
+.blog-section .button--link{
+    font-family: "Poppins", Arial, sans-serif;
+    font-style: SemiBold;
+    font-size: 16px;
+    font-size:large;
+    font-weight: normal;
+    border: 2px;
+    height: 40px;
+    width: 161px;
+    background-color:#D0D7FB2B;
+    color: #ffffff;
+}
+.banner__highlight{
+    color: #0265DC;
+}
+.label{
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 600;
+    font-size: SemiBold;
+    background-color:#F5F8FB;
+    color: #0265DC;
+}
+.label.sold-out{
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    background-color: #F5F8FB;
+    color: red;
+
+}
+.button--primary{
+  background-color: #0265DC;
+  color: #F5F8FB;
+  font-weight: 600;
+  font-style: SemiBold;
+  letter-spacing: 0px;
+}
+.blog-section{
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    line-height: 28px;
+    letter-spacing: 0px;
+    background-color:#0d0d15;
+    color: #F5F8FB;
+    font-size: 16px;
+}
+.about-section .button--link{
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    letter-spacing: 0px;
+    background-color: #D0D7FB2B;
+    color: #f5f6f8;
 
 }
