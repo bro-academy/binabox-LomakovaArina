@@ -11,36 +11,34 @@
 </head>
 <body class="body">
     <header class="header">
-        <nav class="header__nav">
-            <a href="/" class="header__logo">
-                <img src="./images/logo.png" alt="Logo" class="header__logo-img">
-            </a>
-            <ul class="header__menu">
-                <li class="header__menu-item"><a href="/home" class="header__menu-link">Home</a></li>
-                <li class="header__menu-item"><a href="/blog" class="header__menu-link">Blog</a></li>
-                <li class="header__menu-item"><a href="/catalog" class="header__menu-link">Catalog</a></li>
-                <li class="header__menu-item"><a href="/about" class="header__menu-link">About Us</a></li>
+        <a href="/" class="header__logo">
+            <img src="./images/logo.png" alt="Logo" class="header__logo-img">
+        </a>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="/home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="/blog" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="/catalog" class="nav__link">Catalog</a></li>
+                <li class="nav__item"><a href="/about" class="nav__link">About Us</a></li>
             </ul>
         </nav>
         <div class="header__actions">
             <input type="search" class="header__search">
-            <button><a href="#" class="header__discord-link">Discord</a></button>
-            <button class="header__login-button">Login</button>
+            <a href="#" class="button button--outlined">Discord</a>
+            <button class="button button--primary">Login</button>
         </div>
     </header>
     <main class="main">
-        <section class="blog-header"">
-            <h1 class="blog-header__title">Our blog</h1>
-            <div class="blog-header__breadcrumb">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb__list">
-                        <li class="breadcrumb__item"><a href="/" class="breadcrumb__link">Home</a></li>
-                        <li class="breadcrumb__item"><a href="/blog" class="breadcrumb__link">Our blog</a></li>
-                        <li class="breadcrumb__item"><a href="page" class="breadcrumb__link">The Basilisks NFT</a></li>
-                    </ol>
-                </nav>
-            </div>
+        <section class="page-title">
+            <h1 class="page-title__heading">Our blog</h1>
         </section>
+        <nav aria-label="breadcrumb" class="breadcrumbs">
+            <ol class="breadcrumbs__list">
+                <li class="breadcrumbs__item"><a href="/" class="breadcrumbs__link">Home</a></li>
+                <li class="breadcrumbs__item"><a href="/blog" class="breadcrumbs__link">Our blog</a></li>
+                <li class="breadcrumbs__item"><a href="/blog/page" class="breadcrumbs__link">The Basilisks NFT</a></li>
+            </ol>
+        </nav>
                 <aside class="sidebar">
             <div class="sidebar__categories">      
                 <h2 class="sidebar__title">Categories</h2>
@@ -58,64 +56,64 @@
             <div class="sidebar__tags">
                     <h2 class="sidebar__title">Tag</h2>
                     <hr class="sidebar__line">
-                    <button class="#">NFT</button>
-                    <button class="#">ICO</button>
-                    <button class="#">Robot</button>
-                    <button class="#">Crypto</button>
-                    <button class="#">Lauchpad</button>
-                    <button class="#">Metaverse</button>
+                    <button class="button button--tag">NFT</button>
+                    <button class="button button--tag">ICO</button>
+                    <button class="button button--tag">Robot</button>
+                    <button class="button button--tag">Crypto</button>
+                    <button class="button button--tag">Lauchpad</button>
+                    <button class="button button--tag">Metaverse</button>
             </div>
                 </aside>
         <section class="article-section">
                 <article class="article">
                     <img src="./images/dino.png" alt="Basilisks NFT" class="article__img">
                     <h2 class="article__title">The Basilisks NFT</h2>
-                    <button class="#">Gaming</button>
+                    <button class="button button--tag">Gaming</button>
                     <span class="article__author">Tony Nguyen</span> |
                     <span class="article__date">20 Jun 2022</span>
                     <p class="article__text">Basilisks aren’t just creatures — they’re digital apex predators.Forged on the Ethereum chain and raised in a metaverse colosseum, they live to dominate, duel, and devour.Every one of them is an NFT with unique DNA, traits, and bloodlust.</p>
                     <ul class="article__list">
-                        <li><p class="article__list-item">In this game, your Basilisk is your warrior. You breed it. You name it. You train it. And when you’re ready, you send it into the arena — not to play, but to survive.</p></li>
-                        <li><p class="article__list-item">Each NFT Basilisk has a set of traits, mutations, and skills, minted immutably on-chain. The arena? A fully 3D metaverse battleground with wagers, livestreams, and faction wars. Players don’t just watch — they stake tokens, call hits, and climb leaderboards.</p></li>
-                        <li><p class="article__list-item">The game’s AI learns from every move. If your Basilisk gets too strong — it becomes a target. If it dies? It's burned forever. If it wins? You earn crypto, glory, and power.</p></li>
+                        <li><p class="article__item">In this game, your Basilisk is your warrior. You breed it. You name it. You train it. And when you’re ready, you send it into the arena — not to play, but to survive.</p></li>
+                        <li><p class="article__item">Each NFT Basilisk has a set of traits, mutations, and skills, minted immutably on-chain. The arena? A fully 3D metaverse battleground with wagers, livestreams, and faction wars. Players don’t just watch — they stake tokens, call hits, and climb leaderboards.</p></li>
+                        <li><p class="article__item">The game’s AI learns from every move. If your Basilisk gets too strong — it becomes a target. If it dies? It's burned forever. If it wins? You earn crypto, glory, and power</p></li>
                     </ul>
                 </article>
-                <ul class="features">
-                    <li class="features__item">Unique DNA structure</li>
-                    <li class="features__item">PvP-enabled arenas</li>
-                    <li class="features__item">Permanent death mode</li>
-                    <li class="features__item">Metaverse integration</li>
-                </ul>
-                <blockquote class="quote">“The first huge metaverse arena to arrange live sports, hang out and even make bets and wagers”</blockquote>
-                <span class="rating"><small>8.5/10</small></span>
-                <span class="company"><small>Markout Corporation</small></span>
+                    <ul class="features__list">
+                        <li class="features__item">Unique DNA structure</li>
+                        <li class="features__item">PvP-enabled arenas</li>
+                        <li class="features__item">Permanent death mode</li>
+                        <li class="features__item">Metaverse integration</li>
+                    </ul>
+            <blockquote class="quote">“The first huge metaverse arena to arrange live sports, hang out and even make bets and wagers”</blockquote>
+            <span class="rating"><small>8.5/10</small></span>
+            <span class="company"><small>Markout Corporation</small></span>
         </section>
         <section>
                 <article class="article-section">
-                    <img src="./images/drak.png" alt="Gen-3 Basilisk" class="article">
-                    <img src="./images/drak2.png" alt="Gen-3 Basilisk" class="article">
+                    <img src="./images/drak.png" alt="Gen-3 Basilisk" class="article__img">
+                    <img src="./images/drak2.png" alt="Gen-3 Basilisk" class="article__img">
                     <h2 class="article__title">NFTs are digital assets that represent real-world objects</h2>
                     <p class="article__text">Setting up your avatar and personalizing your nickname on Binance is quick and easy. Users can go to binance.com under Dashboard > Settings > My Profile > Avatar and Nickname. For those of you who own NFT assets, you can select the NFT you want to use from your collection as your avatar to personalize your profile. For users who do not own any NFT avatars, check out the NFT avatar collections page to get started.f</p>
                     <p class="article__text">Alternatively, if you’re on nft.binance.com, go to User Center > Settings > Basic > Set Avatar and Nickname, and you’ll be redirected to the main site. Binance NFT Creators have the option of setting their Avatars on nft.binance.com. Once you set your new unique nickname, it will be standardized and used across the Binance ecosystem.</p>
                                
                 </article>
         </section>
-        <section class="generator">
-            <h2 class="generator__title">NFT Avatar Generators</h2>
-            <p class="generator__text">Looking to join the pack? <br>Use the NFT Avatar Generator to craft your own beast — or grab a rare egg on the marketplace.<br>You name it. You own it. You unleash it.</p>
+        <section class="section-block">
+            <h2 class="section-block__title">NFT Avatar Generators</h2>
+            <p class="section-block__text">Looking to join the pack?...</p>
         </section>
-        <section class="tags-share">
-            <div class="tags">
+        <section class="tags-share section-block">
+            <div class="tags-share__block">
                 <h4 class="tags__title">Tags:</h4>
-                <button class="#">NFT</button>
-                <button class="#">Metaverse</button>
-                <button class="#">Crypto</button>
+                <button class="button button--tag">NFT</button>
+                <button class="button button--tag">Metaverse</button>
+                <button class="button button--tag">Crypto</button>
             </div>
-            <div class="share">
+            <div class="tags-share__block">
                 <h4 class="share__title">Share:</h4>
-                <a href="https://twitter.com" class="share__link">Twitter</a>
-                <a href="https://facebook.com" class="share__link">Facebook</a>
-                <a href="https://instagram.com" class="share__link">Instagram</a>
+                <a href="https://twitter.com" class="tags-share__link">Twitter</a>
+                <a href="https://facebook.com" class="tags-share__link">Facebook</a>
+                <a href="https://instagram.com" class="tags-share__link">Instagram</a>
             </div>
         </section>
         </main>
