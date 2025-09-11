@@ -1,4 +1,8 @@
 /* Main styles */
+@use './base/global';
+
+@use './components/button';
+
 :root {
   --primary-color: #3498db;
   --secondary-color: #2ecc71;
@@ -6,6 +10,9 @@
   --background-color: #f8f9fa;
   --white-color: #ffffff;
 }
+$main-color:#ffffff;
+$font-primary: "Poppins", Arial, sans-serif;
+
 
 body {
   font-family: "Arial", sans-serif;

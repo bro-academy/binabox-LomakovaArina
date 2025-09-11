@@ -18,5 +18,8 @@ export default defineConfig({
     nunjucks(),
     postcss(),
     imageOptimizer(),
-  ],
-});
+  ], 
+  CSS: {
+    devSourcemap: true
+  }
+}); 
