@@ -1,9 +1,12 @@
 
 /* Main styles */
-@use './base/global';
+@use '../base/global';
 
-@use './components/button';
+@use '../components/button';
 
+body{
+    background-color: #f00;
+}
 .blog-section .button--link{
     font-family: "Poppins", Arial, sans-serif;
     font-style: SemiBold;
