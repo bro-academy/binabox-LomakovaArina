@@ -1,14 +1,100 @@
 {
-  "catalog": {
+  "index": {
     "title": "",
     "button": "",
-    "list": ""
+    "list": [
     {
       "img": "url",
       "name": "Name Product",
       "price": "1199",
       "label": "New"
     }
-     
+  ] 
   },
- }
+  "blog": {
+        "list": [
+    {
+      "img": "./images/med.png",
+      "author": "Nova Riven",
+      "date": "04 Dec 2022",
+      "label": "New",
+      "name": "Neural Drif",
+      "text": "I woke up inside the void. My body stayed in the past — only thoughts were allowed through the wires."
+    },
+    {
+      "img": "./images/ch.png",
+      "author": "Kairo Null",
+      "date": "06 Dec 2022",
+      "label": "Drop",
+      "name": "Deadframe",
+      "text": "He just stood there, waiting. Not for a person — for a signal. Like the memory of the network took shape."
+    },
+    {
+      "img": "./images/kk.png",
+      "author": "Synthya Void",
+      "date": "07 Dec 2022",
+      "label": "NFT",
+      "name": "Glitch Panther",
+      "text": "Cats always knew more than they showed. Especially the ones that vanish into code"
+    },
+    {
+      "img": "./images/ob.png",
+      "author": "Dr. Wex Omega",
+      "date": "08 Dec 2022",
+      "label": "Rare",
+      "name": "Primal.exe",
+      "text": "We tried to resurrect the past. What we got was rage compressed into an algorithm."
+    },
+    {
+      "img": "./images/gu.png",
+      "author": "Tony Nguyen",
+      "date": "20 Jun 2022",
+      "label": "NFT",
+      "name": "White Protocol",
+      "text": "At first, it was just a signal — clean, white, hypnotic. We didn't know it was alive."
+    },
+    {
+      "img": "./images/bdv.png",
+      "author": "Echo Zero",
+      "date": "09 Dec 2022",
+      "label": "Artifact",
+      "name": "Retrocore",
+      "text": "This console comes from a game no one remembers how to play. But it's still powered on."
+    }
+  ] 
+  },
+"catalog": {
+        "list": [
+    {
+      "img": "./images/ск.png",
+      "price": "$1990",
+      "label": "New",
+      "name": "Echo of Bones"
+    },
+    {
+      "img": "./images/ко.png",
+      "price": "$2390",
+      "label": "New",
+      "name": "Nyx the Watcher"
+    },
+    {
+      "img": "./images/no.png",
+      "price": "$20",
+      "label": "Sold out",
+      "name": "Blade of silence"
+    },
+    {
+      "img": "./images/ск.png",
+      "price": "$1,000,000",
+      "label": "New",
+      "name": "Data Core: Alpha"
+    },
+    {
+     "img": "./images/dv.png",
+      "price": "$199.5",
+      "label": "New",
+      "name": "Phantom cansole"
+    }
+    
+  ] 
+}

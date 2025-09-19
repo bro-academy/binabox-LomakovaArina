@@ -1,19 +1,18 @@
-        <nav class="header__nav">
-            <a href="/" class="header__logo">
-                <img src="./images/logo.png" alt="Logo" class="header__logo-img">
-            </a>
-            <ul class="header__menu">
-            {% for item in header.nav %}
-                <li class="header__menu-item"><a href="/home" class="header__menu-link">Home</a></li>
-                
-                <li class="header__menu-item"><a href="/blog" class="header__menu-link">Blog</a></li>
-                <li class="header__menu-item"><a href="/catalog" class="header__menu-link">Catalog</a></li>
-                <li class="header__menu-item"><a href="/about" class="header__menu-link">About Us</a></li>
-            {% endfor %}
+        <header class="header">
+        <a href="/" class="header__logo">
+            <img src="./images/logo.png" alt="Logo" class="header__logo-img">
+        </a>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="/home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="/blog" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="/catalog" class="nav__link">Catalog</a></li>
+                <li class="nav__item"><a href="/about" class="nav__link">About Us</a></li>
             </ul>
         </nav>
         <div class="header__actions">
             <input type="search" class="header__search">
-            <a href="#" class="header__discord-link">Discord</a>
-            <button class="header__login-button">Login</button>
+            <a href="#" class="button button--outlined">Discord</a>
+            <button class="button button--primary">Login</button>
         </div>
+    </header>
