@@ -1,0 +1,11 @@
+{
+  "header": {
+    "deffult_button": "discord 111"
+  },
+    "nav": [
+      {
+      "text": "Home",
+      "Link": "index.html"
+      }
+    ]
+}
