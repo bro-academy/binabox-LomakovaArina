@@ -1,7 +1,11 @@
 <section class='team-section'>
   <h2 class='team-section__title'>Our team</h2>
+  {% for member in team %}
+    {% include 'team-section_member.twig' %}
+  {% endfor %}
+  
   <div class='team-member'>
-    <img src='1f.png' alt='team member'>
+    <img src='/images/2f.png' alt='team member'>
     <h3 class='team-member__name'>Nova Riven</h3>
     <p class='team-member__role'>Creative Architect</p>
     <a href='https://facebook.com' class='social-link'>Facebook</a>

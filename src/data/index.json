@@ -84,5 +84,72 @@
         "name": "Phantom cansole"
       }
     ]
+  },
+  "team": {
+    "list": [
+      {
+        "img": "/images/2f.png",
+        "name": "Nova Riven",
+        "role": "Creative Architect",
+        "facebook": "https://facebook.com",
+        "telegram": "https://telegram.com",
+        "linkedin": "https://linkedin.com",
+        "instagram": "https://instagram.com"
+      },
+      {
+        "img": "/images/2f.png",
+        "name": "Echo Zero",
+        "role": "Tech Whisperer",
+        "facebook": "https://facebook.com",
+        "telegram": "https://telegram.com",
+        "linkedin": "https://linkedin.com",
+        "instagram": "https://instagram.com"
+      },
+      {
+        "img": "/images/2f.png",
+        "name": "Kairo Null",
+        "role": "Lore Engineer",
+        "facebook": "https://facebook.com",
+        "telegram": "https://telegram.com",
+        "linkedin": "https://linkedin.com",
+        "instagram": "https://instagram.com"
+      },
+      {
+        "img": "./images/2f.png",
+        "name": "Dr. Wex Omega",
+        "role": "Visual Disruptor",
+        "facebook": "https://facebook.com",
+        "telegram": "https://telegram.com",
+        "linkedin": "https://linkedin.com",
+        "instagram": "https://instagram.com"
+      },
+      {
+        "img": "./images/2f.png",
+        "name": "Synthya Void",
+        "role": "UX Seer",
+        "facebook": "https://facebook.com",
+        "telegram": "https://telegram.com",
+        "linkedin": "https://linkedin.com",
+        "instagram": "https://instagram.com"
+      },
+      {
+        "img": "./images/2f.png",
+        "name": "Mirlo Drift",
+        "role": "Community Catalyst",
+        "facebook": "https://facebook.com",
+        "telegram": "https://telegram.com",
+        "linkedin": "https://linkedin.com",
+        "instagram": "https://instagram.com"
+      },
+      {
+        "img": "./images/2f.png",
+        "name": "Axon Rune",
+        "role": "Security Ghost",
+        "facebook": "https://facebook.com",
+        "telegram": "https://telegram.com",
+        "linkedin": "https://linkedin.com",
+        "instagram": "https://instagram.com"
+      }
+    ]
   }
 }
