@@ -1,0 +1,15 @@
+.header__logo{ 
+width: 150px;
+height: 50px; 
+background: blue;
+display: block;
+
+  
+}
+.header{
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-between;
+
+  
+}
