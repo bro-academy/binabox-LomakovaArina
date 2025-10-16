@@ -1,0 +1,126 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  background-color: #0d0d15;
+  color: #eff5fad1;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+p {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  color: #eff5fa;
+}
+a {
+  color: #d0d7fb2b;
+}
+button {
+  font-size: x-large;
+  border: 2px;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+.blog-section .button--link {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-style: SemiBold;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px;
+  height: 40px;
+  width: 161px;
+  background-color: #d0d7fb2b;
+  color: #ffffff;
+}
+.banner__highlight {
+  color: #0265dc;
+}
+.label {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 600;
+  font-size: SemiBold;
+  background-color: #f5f8fb;
+  color: #0265dc;
+}
+.label.sold-out {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 14px;
+  background-color: #f5f8fb;
+  color: red;
+}
+.button--primary {
+  background-color: #0265dc;
+  color: #f5f8fb;
+  font-weight: 600;
+  font-style: SemiBold;
+  letter-spacing: 0px;
+}
+.blog-section {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 600;
+  font-style: SemiBold;
+  line-height: 28px;
+  letter-spacing: 0px;
+  background-color: #0d0d15;
+  color: #f5f8fb;
+  font-size: 16px;
+}
+.about-section .button--link {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  letter-spacing: 0px;
+  background-color: #d0d7fb2b;
+  color: #f5f6f8;
+}
+.header__logo{ 
+width: 150px;
+height: 50px; 
+background: blue;
+display: block;
+
+  
+}
+.header{
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-between;
+
+  
+}
+.nav__list{
+  list-style: none;
+  display: flex;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.nav__item{
+  padding-inline:20px;
+
+}
+.team-section{
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border: Spx solid purple;
+  gap: 40px;
+}
