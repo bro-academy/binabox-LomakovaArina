@@ -1,0 +1,15 @@
+<section class='catalog'>
+  <div class='catalog__header'>
+    <h2 class='catalog__title'>Catalog</h2>
+    <a class='catalog__link' href='/catalog'>See all</a>
+    <button class='catalog__arrow-button'></button>
+    <button class='catalog__arrow-button'></button>
+  </div>
+  <ul class="catalog__list list">
+    {% for item in catalog %}
+ <li class="list__item">
+    {% include 'catalog-item.twig' %}
+ </li> 
+    {% endfor %}
+ </ui> 
+    

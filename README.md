@@ -1,2 +1,2 @@
- Student: Arina
- Mentor: Viacheslav 
+ Student: Arina 
+ Mentor: Elizaveta

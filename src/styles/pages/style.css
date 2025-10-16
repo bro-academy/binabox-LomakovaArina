@@ -13,6 +13,7 @@ h3 {
   font-weight: 400;
   letter-spacing: 0.5px;
   text-align: center;
+  margin-bottom: Spacing/Spacing64 24px;
 }
 p {
   font-family: 'Poppins', Arial, sans-serif;
@@ -23,10 +24,17 @@ p {
   color: #eff5fa;
 }
 a {
-  color: #d0d7fb2b;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: large;
+  font-weight: normal;
+  color: #d0d7fb2b 17%;
+  text-decoration: none;
+  border: 2px;
+  bottom: 10px;
 }
 button {
   font-size: x-large;
+  font-weight: normal;
   border: 2px;
   font-family: 'Poppins', Arial, sans-serif;
   font-weight: 600;
@@ -36,7 +44,8 @@ button {
   font-family: 'Poppins', Arial, sans-serif;
   font-style: SemiBold;
   font-size: 16px;
-  font-weight: 600;
+  font-size: large;
+  font-weight: normal;
   border: 2px;
   height: 40px;
   width: 161px;
@@ -86,41 +95,4 @@ button {
   letter-spacing: 0px;
   background-color: #d0d7fb2b;
   color: #f5f6f8;
-}
-.header__logo{ 
-width: 150px;
-height: 50px; 
-background: blue;
-display: block;
-
-  
-}
-.header{
-  display: flex;
-  border: 2px solid black;
-  justify-content: space-between;
-
-  
-}
-.nav__list{
-  list-style: none;
-  display: flex;
-}
-ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  
-}
-.nav__item{
-  padding-inline:20px;
-
-}
-.team-section{
-  display: flex;
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  border: Spx solid purple;
-  gap: 40px;
 }

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   font-size: 20px;
   line-height: 28px;
   font-weight: 500;
@@ -9,13 +9,14 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   font-weight: 400;
   letter-spacing: 0.5px;
   text-align: center;
+  margin-bottom: Spacing/Spacing64 24px;
 }
 p {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0;
@@ -23,38 +24,46 @@ p {
   color: #eff5fa;
 }
 a {
-  color: #d0d7fb2b;
+  font-family: Poppins, Arial, sans-serif;
+  font-size: large;
+  font-weight: 400;
+  color: #d0d7fb2b 17%;
+  text-decoration: none;
+  border: 2px;
+  bottom: 10px;
 }
 button {
   font-size: x-large;
+  font-weight: 400;
   border: 2px;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   font-weight: 600;
   text-align: left;
 }
 .blog-section .button--link {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   font-style: SemiBold;
   font-size: 16px;
-  font-weight: 600;
+  font-size: large;
+  font-weight: 400;
   border: 2px;
   height: 40px;
   width: 161px;
   background-color: #d0d7fb2b;
-  color: #ffffff;
+  color: #fff;
 }
 .banner__highlight {
   color: #0265dc;
 }
 .label {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   font-weight: 600;
   font-size: SemiBold;
   background-color: #f5f8fb;
   color: #0265dc;
 }
 .label.sold-out {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   font-weight: 600;
   font-style: SemiBold;
   font-size: 14px;
@@ -69,7 +78,7 @@ button {
   letter-spacing: 0px;
 }
 .blog-section {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   font-weight: 600;
   font-style: SemiBold;
   line-height: 28px;
@@ -79,48 +88,11 @@ button {
   font-size: 16px;
 }
 .about-section .button--link {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   font-weight: 600;
   font-style: SemiBold;
   font-size: 18px;
   letter-spacing: 0px;
   background-color: #d0d7fb2b;
   color: #f5f6f8;
-}
-.header__logo{ 
-width: 150px;
-height: 50px; 
-background: blue;
-display: block;
-
-  
-}
-.header{
-  display: flex;
-  border: 2px solid black;
-  justify-content: space-between;
-
-  
-}
-.nav__list{
-  list-style: none;
-  display: flex;
-}
-ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  
-}
-.nav__item{
-  padding-inline:20px;
-
-}
-.team-section{
-  display: flex;
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  border: Spx solid purple;
-  gap: 40px;
 }

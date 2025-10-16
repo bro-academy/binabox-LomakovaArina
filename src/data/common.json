@@ -1,5 +1,11 @@
 {
-  "common": {
-    "siteTitle": "Bro Starter"
-  }
+  "header": {
+    "deffult_button": "discord 111"
+  },
+  "nav": [
+    {
+      "text": "Home",
+      "Link": "index.html"
+    }
+  ]
 }
