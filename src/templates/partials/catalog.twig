@@ -1,12 +1,10 @@
 <section class='catalog'>
    <div class='catalog__header'>
       <h2 class='catalog__title'>Catalog</h2>
-      <a class='catalog__link' href='/catalog'>See all</a>
-      <button class='catalog__arrow-button'></button>
-      <button class='catalog__arrow-button'></button>
-   </div>
+      <a class='catalog__link button' href='/catalog'>See all</a>
+      <button class='catalog__arrow-button button'></button>
    <ul class="catalog__list list">
-         {% for item in catalog %}
+         {% for item in catalog.list %}
       <li class="list__item">
          {% include 'catalog-item.twig' %}
       </li> 
