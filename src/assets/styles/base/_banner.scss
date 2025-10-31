@@ -1,0 +1,14 @@
+@use '../base/mixins' as *;
+
+@include mobile {
+    color:rgb(49, 175, 177);
+ }
+@include tablet {
+    color:red;
+ }
+@include desсtop {
+    color:rgb(140, 40, 158);
+ }
+@include desctop-lg {
+    color:rgb(218, 229, 99);
+ }

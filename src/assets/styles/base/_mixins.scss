@@ -1,0 +1,20 @@
+@mixin mobile {
+   @media (min-width: $bp-mobile){
+    @content;
+   }
+}
+@mixin tablet {
+   @media (min-width: $bp-tablet){
+    @content;
+   }
+}
+@mixin desctop {
+   @media (min-width: $bp-desctop){
+    @content;
+   }
+}
+@mixin desctop-lg {
+   @media (min-width: $bp-desctop-lg){
+    @content;
+   }
+}
