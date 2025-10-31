@@ -1,11 +1,27 @@
 {
   "header": {
-    "deffult_button": "discord 111"
-  },
-  "nav": [
-    {
-      "text": "Home",
-      "Link": "index.html"
-    }
+    "logo": {
+      "link": "/",
+      "img": "./images/logo.png",
+      "alt": "Logo"
+    },
+    "nav": [
+      {
+        "text": "Home",
+        "link": "/home"
+      },
+      {
+        "text": "Blog",
+        "Link": "/blog"
+      },
+      {
+        "text": "Catalog",
+        "link": "/catalog"
+      },
+      {
+        "text": "About",
+        "Link": "/about"
+      }
   ]
+}
 }
