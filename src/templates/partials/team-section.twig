@@ -1,0 +1,6 @@
+<section class='team-section'>
+  <h2 class='team-section__title'>Our team</h2>
+  {% for member in team.list %}
+    {% include 'team-section_member.twig' %}
+  {% endfor %}
+  

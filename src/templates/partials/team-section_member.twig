@@ -1,0 +1,17 @@
+<div class='team-member'>
+  <img src='{{ member.img }}' alt='{{ member.name }}'>
+  <h3 class='team-member__name'>{{ member.name }}</h3>
+  <p class='team-member__role'>{{ member.role }}</p>
+  {% if member.facebook %}
+    <a href='{{ member.facebook }}' class='social-link'>Facebook</a>
+  {% endif %}
+  {% if member.telegram %}
+    <a href='{{ member.telegram }}' class='social-link'>Telegram</a>
+  {% endif %}
+  {% if member.linkedin %}
+    <a href='{{ member.linkedin }}' class='social-link'>LinkedIn</a>
+  {% endif %}
+  {% if member.instagram %}
+    <a href='{{ member.instagram }}' class='social-link'>Instagram</a>
+  {% endif %}
+</div>

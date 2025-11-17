@@ -1,5 +1,27 @@
 {
-  "common": {
-    "siteTitle": "Bro Starter"
-  }
+  "header": {
+    "logo": {
+      "link": "/",
+      "img": "./images/logo.png",
+      "alt": "Logo"
+    },
+    "nav": [
+      {
+        "text": "Home",
+        "link": "/home"
+      },
+      {
+        "text": "Blog",
+        "Link": "/blog"
+      },
+      {
+        "text": "Catalog",
+        "link": "/catalog"
+      },
+      {
+        "text": "About",
+        "Link": "/about"
+      }
+  ]
+}
 }
